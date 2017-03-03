@@ -1,0 +1,64 @@
+body {
+    //background-image:url("../img/pattern.jpg");
+}
+
+.full-wrapper{
+
+}
+
+.video{
+    padding: 30px;
+    text-align: center;
+}
+
+video {
+    border: 5px solid #000000;
+    box-shadow: 0px 0px 35px 12px #dd9f36;
+    height: 500px;
+    margin: 0 auto;
+}
+
+audio {
+    box-shadow: 0px 0px 45px 2px #dd9f36;
+    display: block;
+    margin: 50px auto 0;
+}
+
+@keyframes rotate1 {
+    0%   {transform: rotate(0deg);}
+    14%  {transform: rotate(50deg);}
+    28%  {transform: rotate(100deg);}
+    42% {transform: rotate(150deg);}
+    56% {transform: rotate(200deg);}
+    70% {transform: rotate(250deg);}
+    84% {transform: rotate(300deg);}
+    100% {transform: rotate(360deg);}
+}
+
+@keyframes rotate2 {
+    0%   {transform: rotate(360deg);}
+    14%  {transform: rotate(300deg);}
+    28%  {transform: rotate(250deg);}
+    42% {transform: rotate(200deg);}
+    56% {transform: rotate(150deg);}
+    70% {transform: rotate(100deg);}
+    84% {transform: rotate(50deg);}
+    100% {transform: rotate(0deg);}
+}
+.clock-rotate {
+    animation-name: rotate1;
+    animation-duration: 4s;
+}
+
+.clock-rotate2 {
+    animation-name: rotate2;
+    animation-duration: 4s;
+}
+
+.hide {
+    display: none;
+}
+
+canvas {
+    border: 1px solid #000;
+}

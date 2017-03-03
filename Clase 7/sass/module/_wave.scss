@@ -1,0 +1,58 @@
+.wave-section {
+    padding: 200px 34% 0;
+    position: relative;
+}
+
+.wave-section:hover{
+    & .wave.item1{
+        animation: item1 0.7s linear infinite alternate;
+    }
+    & .wave.item2 {
+        animation: item2 0.7s linear 0.5s infinite alternate;
+    }
+    & .wave.item3 {
+        animation: item3 0.7s linear 1s infinite alternate;
+    }
+} 
+
+.wave {
+    background-color: #000;
+    border-radius: 100%;
+    float: left;
+    height: 100px;
+    position: relative;
+    width: 100px;
+}
+
+@keyframes item1 {
+    0% {
+        background-color: #000;
+        transform: translateY(0);
+    }
+    100%{
+        background-color: cadetblue;
+        transform: translateY(-100px);
+    }
+}
+
+@keyframes item2 {
+    0% {
+        background-color: #000;
+        transform: translateY(0);
+    }
+    100%{
+        background-color: forestgreen;        
+        transform: translateY(-100px);
+    }
+}
+
+@keyframes item3 {
+    0% {
+        background-color: #000;
+        transform: translateY(0);
+    }
+    100%{
+        background-color: darkslateblue;
+        transform: translateY(-100px);
+    }
+}

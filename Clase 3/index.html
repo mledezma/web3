@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Title</title>
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/styles.css">
+        <script src="js/jquery.min.js"></script>
+    </head>
+    <body>
+        <nav>
+            <button type="button" name="button" id="displayForm">Formulario</button>
+            <button type="button" name="button" id="displayList">Lista</button>
+        </nav>
+        <section class="form hidden">
+            <form class="form">
+                <h1>Formulario</h1>
+                <div>
+                    <label for="name">Nombre:</label>
+                    <input type="text" id="name" required>
+                </div>
+                <div>
+                    <label for="lastname">Apellido:</label>
+                    <input type="text" id="lastname" required>
+                </div>
+                <div>
+                    <label for="mail">Correo:</label>
+                    <input type="email" id="mail" required>
+                </div>
+                <div>
+                    <label for="favcolor">Color Favorito</label>
+                    <input type="color" id="favcolor">
+                </div>
+                <div>
+                    <label for="luckynum">Número de la suerte</label>
+                    <input type="number" id="luckynum" max="10">
+                </div>
+                <datalist id="languages">
+                    <option value="Js"></option>
+                    <option value="Ruby"></option>
+                    <option value="PHP"></option>
+                    <option value="Python"></option>
+                </datalist>
+                <div>
+                    <label for="programlanguages">Lenguajes de programación</label>
+                    <input id="programlanguages" type="text" name="languages" list="languages">
+                </div>
+                <div>
+                    <label for="borndate">Fecha de nacimiento</label>
+                    <input type="date" id="borndate" required>
+                    <label for="borntime">Hora *opcional</label>
+                    <input type="time" id="borntime">
+                </div>
+                <div>
+                    <label for="cv">Adjunte su CV</label>
+                    <input type="file" id="cv" accept=".pdf" required>
+                </div>
+                <div class="range">
+                    <label for="money">¿Cuánto deseas ganar?</label>
+                    <input type="range" min="200" max="2000" step="100" id="money">
+                    <span id="min"></span>
+                    <span id="max"></span>
+                    <span id="actualNum"></span>
+                </div>
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
+        <section class="list hidden">
+            <ol>
+                <li data-location="center" data-size="30221535" data-poblation="1000000000000" data-sku="1">África</li>
+                <li data-location="west" data-size="43316000" data-poblation="1041034000" data-sku="2">América</li>
+                <li data-location="northeast" data-size="44541138" data-poblation="4393000000" data-sku="3">Asia</li>
+                <li data-location="north" data-size="10180000" data-poblation="743100000" data-sku="4">Europa</li>
+                <li data-location="southeast" data-size="9008458" data-poblation="38889988" data-sku="5">Oceanía</li>
+                <li data-location="south" data-size="14000000" data-poblation="5000" data-sku="6">Artántida</li>
+            </ol>
+        </section>
+        <script src="js/main.js"></script>
+    </body>
+</html>

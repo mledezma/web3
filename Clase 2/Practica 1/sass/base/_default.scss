@@ -1,0 +1,50 @@
+body {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+header {
+    text-align: center;
+    nav {
+        border-bottom: 5px solid #525252;
+    }
+
+    li {
+        display: inline;
+        margin-right: 20px;
+    }
+}
+
+section {
+    text-align: center;
+}
+
+li {
+    list-style: none;
+}
+
+main {
+    article {
+        float: left;
+        width: 300px;
+        img {
+            height: 100%;
+            width: 100%;
+        }
+    }
+}
+
+footer {
+    border-top: 5px solid #525252;
+    article {
+        float: left;
+        width: 300px;
+        img {
+            height: 100%;
+            width: 100%;
+        }
+    }
+}
+
+a{
+    text-decoration: none;
+}

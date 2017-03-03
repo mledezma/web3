@@ -1,0 +1,29 @@
+@mixin btn($shape, $background-color, $font-color) {
+    @if $shape == "square" {height: 200px; width: 200px;}
+    @else if $shape == "rectangule" {height: 150px; width: 300px;}
+    @else if $shape == "circle" {height: 150px; width: 300px; border-radius: 50%}
+    @else if $shape == "triangule" {
+        width: 0;
+    	height: 0;
+    	border-left: 50px solid transparent;
+    	border-right: 50px solid transparent;
+    	border-bottom: 100px solid #{$background-color};
+    }
+    @if $shape == "triangule" {
+        background-color: transparent;
+    }
+    @else {
+        background-color: #{$background-color};
+    }
+    color: #{$font-color};
+
+    &:hover {
+        @if $shape == "triangule" {
+            border-bottom: invert($background-color);
+        }
+        @else {
+            background-color: invert($background-color);
+        }
+        color: invert($font-color);
+    }
+}
