@@ -1,0 +1,32 @@
+body {
+    background-color: #fff;
+}
+
+a {
+    text-decoration: none;
+}
+
+h3 {
+    font-family: $main-font;
+    font-weight: 900;
+}
+
+figure {
+    margin: 0;
+}
+
+figcaption {
+    font-family: $secondary-font;
+    font-size: 36px;
+}
+
+nav > li {
+    font: 300 16px $main-font; 
+    list-style: none;
+    text-transform: uppercase;
+}
+
+@font-face{
+    font-family: "Beyond";
+    src: url("../font/beyond.otf");
+}

@@ -1,0 +1,13 @@
+.banner {
+    background-image: url("../img/banner1.jpg");
+    background-size: cover;
+    box-sizing: border-box;    
+    height: 557px;
+    padding: 10% 0;    
+    text-align: center;
+
+    h2{
+        color: #fff;
+        font: 98px $decorative-font;
+    }
+}

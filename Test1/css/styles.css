@@ -1,0 +1,120 @@
+@charset "UTF-8";
+body {
+  background-color: #fff; }
+
+a {
+  text-decoration: none; }
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900; }
+
+figure {
+  margin: 0; }
+
+figcaption {
+  font-family: "Oleo Script Swash Caps", cursive;
+  font-size: 36px; }
+
+nav > li {
+  font: 300 16px "Montserrat", sans-serif;
+  list-style: none;
+  text-transform: uppercase; }
+
+@font-face {
+  font-family: "Beyond";
+  src: url("../font/beyond.otf"); }
+.clearfix {
+  overflow: auto;
+  zoom: 1; }
+
+.full-wrapper {
+  margin: 0 auto;
+  max-width: 1440px; }
+
+header {
+  background-color: #03061a;
+  padding: 0 40px; }
+  header > img[title="logo"] {
+    float: left;
+    margin: 25px 0 30px; }
+  header nav {
+    float: right; }
+
+.highlight {
+  box-sizing: border-box;
+  margin-bottom: 85px;
+  padding: 0 40px;
+  text-align: center; }
+  .highlight h3 {
+    font-size: 30px;
+    margin: 55px 0 65px;
+    text-transform: uppercase; }
+  .highlight .promo {
+    display: inline-block;
+    margin-left: 40px; }
+
+.who {
+  background-image: url("../img/banner2.jpg");
+  background-size: cover;
+  box-sizing: border-box;
+  height: 560px;
+  text-align: center; }
+  .who img {
+    float: left;
+    margin: 225px 0 0 170px; }
+
+.header-nav {
+  margin: 45px 0; }
+  .header-nav a {
+    margin-right: 45px; }
+  .header-nav a:last-child {
+    margin-right: 0; }
+  .header-nav li {
+    color: #fff;
+    display: inline; }
+
+.banner {
+  background-image: url("../img/banner1.jpg");
+  background-size: cover;
+  box-sizing: border-box;
+  height: 557px;
+  padding: 10% 0;
+  text-align: center; }
+  .banner h2 {
+    color: #fff;
+    font: 98px "Beyond", cursive; }
+
+.promo {
+  position: relative;
+  text-align: center; }
+  .promo figcaption {
+    background-color: rgba(0, 0, 0, 0.5);
+    bottom: 5px;
+    color: #fff;
+    padding: 20px 0 10px;
+    position: absolute;
+    right: 0%;
+    width: 100%; }
+  .promo figcaption:after {
+    content: "";
+    display: block;
+    font: 500 19px "Montserrat", sans-serif;
+    margin-top: 0;
+    -moz-transition: all 2s ease-out;
+    -o-transition: all 2s ease-out;
+    -webkit-transition: all 2s ease-out;
+    -ms-transition: all 2s ease-out;
+    transition: all 2s ease-out; }
+  .promo figcaption:hover:after {
+    content: "Más información";
+    display: block;
+    font: 500 19px "Montserrat", sans-serif;
+    margin-top: 25px; }
+  .promo figcaption:hover:before {
+    bottom: 0;
+    content: "+";
+    position: absolute;
+    right: 20px; }
+
+/*# sourceMappingURL=styles.css.map */
