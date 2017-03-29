@@ -1,0 +1,28 @@
+.sprite {
+    &.fastfm {
+        background-position: 0 0;
+        transition: background-position, transform 1s ease-in-out;
+    }
+
+    &.tmblr {
+        background-position: -32px 0;
+        transition: background-position, transform 1s ease-in-out;
+    }
+
+    &.twitter {
+        background-position: -64px 0;
+        transition: background-position, transform 1s ease-in-out;
+    }
+
+    &.behance {
+        background-position: -96px 0;
+        transition: background-position, transform 1s ease-in-out;
+    }
+}
+
+.media {
+    
+    li {
+        float: left;
+    }
+}

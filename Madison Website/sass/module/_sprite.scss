@@ -1,0 +1,16 @@
+.sprite {
+    /*Set img sprite*/
+    background-image: url('../img/media.png');
+    background-repeat: no-repeat;
+    display: block;
+    width: 32px;
+    height: 32px;
+
+    /*Clear text*/
+    background-color: transparent;border: 0;
+    overflow: hidden;
+    /* IE 6/7 fallback */
+    text-indent:-9999px;
+    &:before {content: "";display: block;width: 0;height: 150%;}
+}
+

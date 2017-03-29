@@ -1,0 +1,81 @@
+.clearfix {
+  overflow: auto;
+  zoom: 1; }
+
+.sprite {
+  /*Set img sprite*/
+  background-image: url("../img/media-sprite.png");
+  background-repeat: no-repeat;
+  display: block;
+  width: 64px;
+  height: 64px;
+  /*Clear text*/
+  background-color: transparent;
+  border: 0;
+  overflow: hidden;
+  /* IE 6/7 fallback */
+  text-indent: -9999px; }
+  .sprite:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 150%; }
+
+.social-media {
+  perspective: 1300px; }
+
+.img-facebook {
+  transform-style: preserve-3d;
+  background-position: 0 0;
+  transition: background-position, transform 1s ease-in-out; }
+
+.img-pinterest {
+  transform-style: preserve-3d;
+  background-position: -64px 0;
+  transition: background-position, transform 1s ease-in-out; }
+
+.img-twitter {
+  transform-style: preserve-3d;
+  background-position: -128px 0;
+  transition: background-position, transform 1s ease-in-out; }
+
+.img-google {
+  transform-style: preserve-3d;
+  background-position: -192px 0;
+  transition: background-position, transform 1s ease-in-out; }
+
+.img-behance {
+  transform-style: preserve-3d;
+  background-position: -256px 0;
+  transition: background-position, transform 1s ease-in-out; }
+
+.img-vimeo {
+  transform-style: preserve-3d;
+  background-position: -320px 0;
+  transition: background-position, transform 1s ease-in-out; }
+
+.img-facebook:hover {
+  transform: rotate3d(1, 1, 1, 360deg);
+  background-position: 0 -64px; }
+
+.img-pinterest:hover {
+  transform: rotate3d(1, 1, 1, 360deg);
+  background-position: -64px -64px; }
+
+.img-twitter:hover {
+  transform: rotate3d(1, 1, 1, 360deg);
+  background-position: -128px -64px; }
+
+.img-google:hover {
+  transform: rotate3d(1, 1, 1, 360deg);
+  background-position: -192px -64px; }
+
+.img-behance:hover {
+  transform: rotate3d(1, 1, 1, 360deg);
+  background-position: -256px -64px; }
+
+.img-vimeo:hover {
+  transform: rotate3d(1, 1, 1, 360deg);
+  background-position: -320px -64px; }
+
+/*# sourceMappingURL=styles.css.map */

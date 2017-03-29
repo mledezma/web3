@@ -1,0 +1,31 @@
+body, 
+header, 
+main, 
+footer, 
+section, 
+aside, 
+article, 
+ul, 
+li, 
+nav, 
+a, 
+h1, 
+h2, 
+h3, 
+h4, 
+p, 
+div, 
+span, 
+img, 
+video {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}

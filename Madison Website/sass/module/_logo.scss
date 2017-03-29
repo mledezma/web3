@@ -1,0 +1,28 @@
+.logo {
+    cursor: pointer;
+    text-align: center;    
+    width: 220px;
+
+    h1 {
+        font: 5.31em $logo-font;
+        height: 70px;
+    }
+    span {
+        font: 0.87em 'Tahoma';
+        text-transform: uppercase;
+    }
+    span:before {
+        border-left: 1px solid $main-color;        
+        content: '';
+        height: 30px;
+        position: absolute;
+        transform: rotate(90deg) translate(-5px, 70%);        
+    }
+    span:after {
+        border-right: 1px solid $main-color;        
+        content: '';
+        height: 30px;
+        position: absolute;
+        transform: rotate(90deg) translate(-5px, -70%);        
+    }
+}
