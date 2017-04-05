@@ -174,4 +174,8 @@ nav {
   background-color: #d0d0d0;
   color: green; }
 
+.location article {
+  float: left;
+  width: 50%; }
+
 /*# sourceMappingURL=styles.css.map */
