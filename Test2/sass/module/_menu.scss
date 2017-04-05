@@ -1,0 +1,34 @@
+.menu {
+    background-image: url("../img/background-menu.jpg");
+    background-size: cover;
+    padding: 110px 0 60px;
+    text-align: center;
+
+    
+    p {
+        margin: 25px auto;
+        width: 52%;
+    }
+}
+
+.menu-catalog {
+    height: 565px;
+    margin: 0 auto;
+    overflow: hidden;
+    width: 65%;
+
+    img {
+        width: 100%;
+    }
+
+    .fa-arrow-left {
+        float: left;
+    }
+    .fa-arrow-right {
+        float: right;
+    }
+    .fa-arrow-left, .fa-arrow-right {
+        cursor: pointer;
+        margin-bottom: 15px;
+    } 
+}

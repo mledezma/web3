@@ -1,0 +1,21 @@
+@font-face {
+  font-family: Montserrat;
+  src: url("../font/montserrat/Montserrat-Regular.otf");
+  font-weight: regular; }
+@font-face {
+  font-family: Montserrat;
+  src: url("../font/montserrat/Montserrat-ExtraLight.otf");
+  font-weight: extralight; }
+@font-face {
+  font-family: Montserrat;
+  src: url("../font/montserrat/Montserrat-Light.otf");
+  font-weight: light; }
+body {
+  font-family: "Montserrat", sans-serif;
+  color: green; }
+
+.clearfix {
+  overflow: auto;
+  zoom: 1; }
+
+/*# sourceMappingURL=styles.css.map */

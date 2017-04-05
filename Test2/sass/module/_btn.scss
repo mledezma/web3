@@ -1,0 +1,12 @@
+.btn {
+    background-color: transparent;    
+    border: 1px solid  $font-color;
+    color: $font-color;
+    font-size: 0.938em;
+    padding: 10px 86px;
+}
+
+.btn:hover {
+    background-color: $font-color;
+    color: green; 
+}
