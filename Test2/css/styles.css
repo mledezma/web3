@@ -154,7 +154,8 @@ nav {
   .events p {
     margin-top: 25px; }
   .events figure {
-    position: relative; }
+    position: relative;
+    overflow: hidden; }
   .events .caption {
     background-color: #000;
     box-sizing: border-box;
