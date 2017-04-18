@@ -98,6 +98,8 @@ nav {
   color: #d0d0d0; }
   .who-we-are aside {
     background-color: #000;
+    box-sizing: border-box;
+    padding: 0 6%;
     text-align: center; }
   .who-we-are ul {
     list-style: none;
@@ -109,7 +111,7 @@ nav {
     margin-top: 30px; }
   .who-we-are .fa-tripadvisor {
     font-size: 2.438em;
-    margin: 55px 0 167px; }
+    margin: 55px 0 148px; }
 
 .menu {
   background-image: url("../img/background-menu.jpg");
